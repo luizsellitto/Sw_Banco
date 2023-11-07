@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Sw_Banco
+namespace Sw_Banco.Telas
 {
-    public partial class Form1 : Form
+    public partial class CadastrarC : Form
     {
-        public Form1()
+        public CadastrarC()
         {
             InitializeComponent();
         }

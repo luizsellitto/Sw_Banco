@@ -8,7 +8,7 @@ namespace Sw_Banco.Classes
 {
     internal class Conta
     {
-        public int Id { get; set; }
+        public int Id_cli { get; set; }
         public string Cpf { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
@@ -17,10 +17,12 @@ namespace Sw_Banco.Classes
         public string Sexo { get; set; }
         public string Endereco { get; set; }
         public double Saldo { get; set; }
+        public string Senha { get; set; }
+        public List<Extrato> Extras { get; set; }
 
-        public Conta(int id, string cpf, string nome,string email, DateTime dataNasc, string telefone, string sexo, string endereco, double saldo)
+        public Conta(int id, string cpf, string nome,string email, DateTime dataNasc, string telefone, string sexo, string endereco, string senha)
         {
-            Id = id;
+            Id_cli = id;
             Cpf = cpf;
             Nome = nome;
             Email = email;
@@ -28,7 +30,7 @@ namespace Sw_Banco.Classes
             Telefone = telefone;
             Sexo = sexo;
             Endereco = endereco;
-            Saldo = saldo;
+            Senha = senha;
         }
 
         public virtual void Sacar(double valor)
