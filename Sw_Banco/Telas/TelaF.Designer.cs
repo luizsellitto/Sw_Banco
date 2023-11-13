@@ -73,6 +73,7 @@
             this.Controls.Add(this.CC_button);
             this.Name = "TelaF";
             this.Text = "TelaF";
+            this.Load += new System.EventHandler(this.TelaF_Load);
             this.ResumeLayout(false);
 
         }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sw_Banco.Classes
 {
-    internal class Conta
+    public class Conta
     {
-        public int Id_cli { get; set; }
+        public int Id_con { get; set; }
         public string Cpf { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
@@ -22,7 +22,7 @@ namespace Sw_Banco.Classes
 
         public Conta(int id, string cpf, string nome,string email, DateTime dataNasc, string telefone, string sexo, string endereco, string senha)
         {
-            Id_cli = id;
+            Id_con = id;
             Cpf = cpf;
             Nome = nome;
             Email = email;

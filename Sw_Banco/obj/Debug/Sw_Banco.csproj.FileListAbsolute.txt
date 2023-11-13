@@ -9,3 +9,7 @@ C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\
 C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.csproj.CoreCompileInputs.cache
 C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.exe
 C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.pdb
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.CadastrarC.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.CadastrarF.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.TelaF.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.Menup.resources

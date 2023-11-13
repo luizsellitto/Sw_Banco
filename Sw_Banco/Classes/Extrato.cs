@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sw_Banco.Classes
 {
-    internal class Extrato
+    public class Extrato
     {
         public double Saldo { get; set; }
         public double SaldoFinal { get; set; }
