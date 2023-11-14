@@ -61,6 +61,12 @@
     <Compile Include="Telas\CadastrarF.Designer.cs">
       <DependentUpon>CadastrarF.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\emprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\emprestimo.Designer.cs">
+      <DependentUpon>emprestimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,17 +81,44 @@
     <Compile Include="Telas\Menup.Designer.cs">
       <DependentUpon>Menup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\pix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\pix.Designer.cs">
+      <DependentUpon>pix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\PixRevisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\PixRevisao.Designer.cs">
+      <DependentUpon>PixRevisao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\TelaF.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Telas\TelaF.Designer.cs">
       <DependentUpon>TelaF.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\Transferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Transferencia.Designer.cs">
+      <DependentUpon>Transferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\TransferenciaRevisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\TransferenciaRevisao.Designer.cs">
+      <DependentUpon>TransferenciaRevisao.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Telas\CadastrarC.resx">
       <DependentUpon>CadastrarC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\CadastrarF.resx">
       <DependentUpon>CadastrarF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\emprestimo.resx">
+      <DependentUpon>emprestimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -102,8 +135,20 @@
     <EmbeddedResource Include="Telas\Menup.resx">
       <DependentUpon>Menup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\pix.resx">
+      <DependentUpon>pix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\PixRevisao.resx">
+      <DependentUpon>PixRevisao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaF.resx">
       <DependentUpon>TelaF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Transferencia.resx">
+      <DependentUpon>Transferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\TransferenciaRevisao.resx">
+      <DependentUpon>TransferenciaRevisao.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

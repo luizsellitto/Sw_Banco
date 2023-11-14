@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaF));
             this.CC_button = new System.Windows.Forms.Button();
             this.CF_button = new System.Windows.Forms.Button();
             this.Sair_button = new System.Windows.Forms.Button();
@@ -35,42 +36,54 @@
             // 
             // CC_button
             // 
-            this.CC_button.Location = new System.Drawing.Point(433, 145);
+            this.CC_button.BackColor = System.Drawing.Color.Transparent;
+            this.CC_button.FlatAppearance.BorderSize = 0;
+            this.CC_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CC_button.Location = new System.Drawing.Point(273, 204);
+            this.CC_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CC_button.Name = "CC_button";
-            this.CC_button.Size = new System.Drawing.Size(157, 83);
+            this.CC_button.Size = new System.Drawing.Size(225, 40);
             this.CC_button.TabIndex = 0;
-            this.CC_button.Text = "Criar Conta";
-            this.CC_button.UseVisualStyleBackColor = true;
+            this.CC_button.UseVisualStyleBackColor = false;
             this.CC_button.Click += new System.EventHandler(this.CC_button_Click);
             // 
             // CF_button
             // 
-            this.CF_button.Location = new System.Drawing.Point(433, 290);
+            this.CF_button.BackColor = System.Drawing.Color.Transparent;
+            this.CF_button.FlatAppearance.BorderSize = 0;
+            this.CF_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CF_button.Location = new System.Drawing.Point(273, 272);
+            this.CF_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CF_button.Name = "CF_button";
-            this.CF_button.Size = new System.Drawing.Size(157, 69);
+            this.CF_button.Size = new System.Drawing.Size(225, 40);
             this.CF_button.TabIndex = 1;
-            this.CF_button.Text = "Cadastrar Funcionário";
-            this.CF_button.UseVisualStyleBackColor = true;
+            this.CF_button.UseVisualStyleBackColor = false;
             this.CF_button.Click += new System.EventHandler(this.CF_button_Click);
             // 
             // Sair_button
             // 
-            this.Sair_button.Location = new System.Drawing.Point(451, 409);
+            this.Sair_button.BackColor = System.Drawing.Color.Transparent;
+            this.Sair_button.FlatAppearance.BorderSize = 0;
+            this.Sair_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sair_button.Location = new System.Drawing.Point(273, 339);
+            this.Sair_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Sair_button.Name = "Sair_button";
-            this.Sair_button.Size = new System.Drawing.Size(126, 43);
+            this.Sair_button.Size = new System.Drawing.Size(225, 42);
             this.Sair_button.TabIndex = 2;
-            this.Sair_button.Text = "Sair";
-            this.Sair_button.UseVisualStyleBackColor = true;
+            this.Sair_button.UseVisualStyleBackColor = false;
             this.Sair_button.Click += new System.EventHandler(this.Sair_button_Click);
             // 
             // TelaF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1028, 561);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(771, 456);
             this.Controls.Add(this.Sair_button);
             this.Controls.Add(this.CF_button);
             this.Controls.Add(this.CC_button);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TelaF";
             this.Text = "TelaF";
             this.Load += new System.EventHandler(this.TelaF_Load);

@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace Sw_Banco.Telas
 {
-    public partial class Menup : Form
+    public partial class emprestimo : Form
     {
-        public Menup()
+        public emprestimo()
         {
             InitializeComponent();
-           
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Menup_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

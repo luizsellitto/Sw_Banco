@@ -79,5 +79,15 @@ namespace Sw_Banco
             Login login = new Login(contas, funcionarios);
             login.Dispose();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pass_mask_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

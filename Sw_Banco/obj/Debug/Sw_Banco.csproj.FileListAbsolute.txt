@@ -13,3 +13,18 @@ C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\
 C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.CadastrarF.resources
 C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.TelaF.resources
 C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.Menup.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.csproj.AssemblyReference.cache
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.csproj.SuggestedBindingRedirects.cache
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.CadastrarC.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.CadastrarF.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Login.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Properties.Resources.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.Menup.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.TelaF.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.csproj.GenerateResource.cache
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.csproj.CoreCompileInputs.cache
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.exe
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.pdb
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\bin\Debug\Sw_Banco.exe.config
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\bin\Debug\Sw_Banco.exe
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\bin\Debug\Sw_Banco.pdb

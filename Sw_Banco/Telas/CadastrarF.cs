@@ -37,14 +37,14 @@ namespace Sw_Banco.Telas
                     if (f > c)
                     {
                         id = f + 1;
-                        string cpf = textBox1.Text;
-                        string nome = textBox2.Text;
-                        string email = textBox3.Text;
-                        DateTime dataNasc = Convert.ToDateTime(textBox4.Text);
-                        string telefone = textBox5.Text;
-                        string sexo = textBox6.Text;
-                        string endereco = textBox7.Text;
-                        string senha = textBox8.Text;
+                        string cpf = tx_nome.Text;
+                        string nome = tx_cpf.Text;
+                        string email = tx_email.Text;
+                        DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
+                        string telefone = tx_celular.Text;
+                        string sexo = tx_sexo.Text;
+                        string endereco = tx_endereco.Text;
+                        string senha = tx_senha.Text;
                         Funcionario newfun = new Funcionario(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
                         funcionarios.Add(newfun);
                         this.Hide();
@@ -54,14 +54,14 @@ namespace Sw_Banco.Telas
                     else
                     {
                         id = c + 1;
-                        string cpf = textBox1.Text;
-                        string nome = textBox2.Text;
-                        string email = textBox3.Text;
-                        DateTime dataNasc = Convert.ToDateTime(textBox4.Text);
-                        string telefone = textBox5.Text;
-                        string sexo = textBox6.Text;
-                        string endereco = textBox7.Text;
-                        string senha = textBox8.Text;
+                        string cpf = tx_nome.Text;
+                        string nome = tx_cpf.Text;
+                        string email = tx_email.Text;
+                        DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
+                        string telefone = tx_celular.Text;
+                        string sexo = tx_sexo.Text;
+                        string endereco = tx_endereco.Text;
+                        string senha = tx_senha.Text;
                         Funcionario newfun = new Funcionario(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
                         funcionarios.Add(newfun);
                         this.Hide();
@@ -77,14 +77,14 @@ namespace Sw_Banco.Telas
 
                     
                         id = f + 1;
-                        string cpf = textBox1.Text;
-                        string nome = textBox2.Text;
-                        string email = textBox3.Text;
-                        DateTime dataNasc = Convert.ToDateTime(textBox4.Text);
-                        string telefone = textBox5.Text;
-                        string sexo = textBox6.Text;
-                        string endereco = textBox7.Text;
-                        string senha = textBox8.Text;
+                        string cpf = tx_nome.Text;
+                        string nome = tx_cpf.Text;
+                        string email = tx_email.Text;
+                        DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
+                        string telefone = tx_celular.Text;
+                        string sexo = tx_sexo.Text;
+                        string endereco = tx_endereco.Text;
+                        string senha = tx_senha.Text;
                         Funcionario newfun = new Funcionario(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
                         funcionarios.Add(newfun);
                         this.Hide();
@@ -104,6 +104,11 @@ namespace Sw_Banco.Telas
             this.Hide();
             TelaF loginFC = new TelaF(contas, funcionarios);
             loginFC.ShowDialog();
+        }
+
+        private void CadastrarF_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
