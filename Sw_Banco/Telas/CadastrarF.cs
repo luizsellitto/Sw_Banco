@@ -110,5 +110,10 @@ namespace Sw_Banco.Telas
         {
 
         }
+
+        private void tx_dataNasc_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

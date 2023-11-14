@@ -90,10 +90,11 @@
             // pass_mask
             // 
             this.pass_mask.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.pass_mask.Location = new System.Drawing.Point(353, 382);
+            this.pass_mask.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pass_mask.Location = new System.Drawing.Point(353, 375);
             this.pass_mask.Name = "pass_mask";
             this.pass_mask.PasswordChar = '*';
-            this.pass_mask.Size = new System.Drawing.Size(185, 13);
+            this.pass_mask.Size = new System.Drawing.Size(185, 19);
             this.pass_mask.TabIndex = 3;
             this.pass_mask.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.pass_mask_MaskInputRejected);
             // 
@@ -101,10 +102,11 @@
             // 
             this.id_tx.BackColor = System.Drawing.Color.White;
             this.id_tx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.id_tx.Location = new System.Drawing.Point(360, 247);
+            this.id_tx.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id_tx.Location = new System.Drawing.Point(353, 255);
             this.id_tx.Multiline = true;
             this.id_tx.Name = "id_tx";
-            this.id_tx.Size = new System.Drawing.Size(167, 37);
+            this.id_tx.Size = new System.Drawing.Size(167, 25);
             this.id_tx.TabIndex = 6;
             // 
             // Login

@@ -30,87 +30,65 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastrarC));
             this.tx_senha = new System.Windows.Forms.TextBox();
-            this.tx_dataNasc = new System.Windows.Forms.TextBox();
             this.tx_endereco = new System.Windows.Forms.TextBox();
             this.tx_sexo = new System.Windows.Forms.TextBox();
-            this.tx_celular = new System.Windows.Forms.TextBox();
             this.tx_email = new System.Windows.Forms.TextBox();
-            this.tx_cpf = new System.Windows.Forms.TextBox();
             this.tx_nome = new System.Windows.Forms.TextBox();
             this.bt_cancelar = new System.Windows.Forms.Button();
             this.Salvar_bt = new System.Windows.Forms.Button();
+            this.tx_cpf = new System.Windows.Forms.MaskedTextBox();
+            this.tx_dataNasc = new System.Windows.Forms.MaskedTextBox();
+            this.tx_celular = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // tx_senha
             // 
             this.tx_senha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_senha.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_senha.Location = new System.Drawing.Point(530, 413);
             this.tx_senha.Margin = new System.Windows.Forms.Padding(2);
             this.tx_senha.Name = "tx_senha";
-            this.tx_senha.Size = new System.Drawing.Size(137, 13);
+            this.tx_senha.Size = new System.Drawing.Size(137, 19);
             this.tx_senha.TabIndex = 19;
-            // 
-            // tx_dataNasc
-            // 
-            this.tx_dataNasc.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tx_dataNasc.Location = new System.Drawing.Point(186, 413);
-            this.tx_dataNasc.Margin = new System.Windows.Forms.Padding(2);
-            this.tx_dataNasc.Name = "tx_dataNasc";
-            this.tx_dataNasc.Size = new System.Drawing.Size(137, 13);
-            this.tx_dataNasc.TabIndex = 18;
             // 
             // tx_endereco
             // 
             this.tx_endereco.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_endereco.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_endereco.Location = new System.Drawing.Point(530, 337);
             this.tx_endereco.Margin = new System.Windows.Forms.Padding(2);
             this.tx_endereco.Name = "tx_endereco";
-            this.tx_endereco.Size = new System.Drawing.Size(137, 13);
+            this.tx_endereco.Size = new System.Drawing.Size(137, 19);
             this.tx_endereco.TabIndex = 17;
             // 
             // tx_sexo
             // 
             this.tx_sexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_sexo.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_sexo.Location = new System.Drawing.Point(530, 256);
             this.tx_sexo.Margin = new System.Windows.Forms.Padding(2);
             this.tx_sexo.Name = "tx_sexo";
-            this.tx_sexo.Size = new System.Drawing.Size(137, 13);
+            this.tx_sexo.Size = new System.Drawing.Size(137, 19);
             this.tx_sexo.TabIndex = 16;
-            // 
-            // tx_celular
-            // 
-            this.tx_celular.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tx_celular.Location = new System.Drawing.Point(530, 178);
-            this.tx_celular.Margin = new System.Windows.Forms.Padding(2);
-            this.tx_celular.Name = "tx_celular";
-            this.tx_celular.Size = new System.Drawing.Size(137, 13);
-            this.tx_celular.TabIndex = 15;
             // 
             // tx_email
             // 
             this.tx_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_email.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_email.Location = new System.Drawing.Point(186, 337);
             this.tx_email.Margin = new System.Windows.Forms.Padding(2);
             this.tx_email.Name = "tx_email";
-            this.tx_email.Size = new System.Drawing.Size(137, 13);
+            this.tx_email.Size = new System.Drawing.Size(137, 19);
             this.tx_email.TabIndex = 14;
-            // 
-            // tx_cpf
-            // 
-            this.tx_cpf.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tx_cpf.Location = new System.Drawing.Point(186, 256);
-            this.tx_cpf.Margin = new System.Windows.Forms.Padding(2);
-            this.tx_cpf.Name = "tx_cpf";
-            this.tx_cpf.Size = new System.Drawing.Size(137, 13);
-            this.tx_cpf.TabIndex = 13;
             // 
             // tx_nome
             // 
             this.tx_nome.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_nome.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_nome.Location = new System.Drawing.Point(186, 178);
             this.tx_nome.Margin = new System.Windows.Forms.Padding(2);
             this.tx_nome.Name = "tx_nome";
-            this.tx_nome.Size = new System.Drawing.Size(137, 13);
+            this.tx_nome.Size = new System.Drawing.Size(137, 19);
             this.tx_nome.TabIndex = 12;
             // 
             // bt_cancelar
@@ -139,6 +117,39 @@
             this.Salvar_bt.UseVisualStyleBackColor = false;
             this.Salvar_bt.Click += new System.EventHandler(this.Salvar_bt_Click_1);
             // 
+            // tx_cpf
+            // 
+            this.tx_cpf.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_cpf.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_cpf.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_cpf.Location = new System.Drawing.Point(186, 256);
+            this.tx_cpf.Mask = "000.000.000-00";
+            this.tx_cpf.Name = "tx_cpf";
+            this.tx_cpf.Size = new System.Drawing.Size(100, 19);
+            this.tx_cpf.TabIndex = 22;
+            // 
+            // tx_dataNasc
+            // 
+            this.tx_dataNasc.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_dataNasc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_dataNasc.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_dataNasc.Location = new System.Drawing.Point(186, 413);
+            this.tx_dataNasc.Mask = "00/00/0000";
+            this.tx_dataNasc.Name = "tx_dataNasc";
+            this.tx_dataNasc.Size = new System.Drawing.Size(100, 19);
+            this.tx_dataNasc.TabIndex = 21;
+            // 
+            // tx_celular
+            // 
+            this.tx_celular.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_celular.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_celular.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_celular.Location = new System.Drawing.Point(530, 178);
+            this.tx_celular.Mask = "(00) 00000-0000";
+            this.tx_celular.Name = "tx_celular";
+            this.tx_celular.Size = new System.Drawing.Size(100, 19);
+            this.tx_celular.TabIndex = 20;
+            // 
             // CadastrarC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,13 +158,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(850, 534);
-            this.Controls.Add(this.tx_senha);
+            this.Controls.Add(this.tx_cpf);
             this.Controls.Add(this.tx_dataNasc);
+            this.Controls.Add(this.tx_celular);
+            this.Controls.Add(this.tx_senha);
             this.Controls.Add(this.tx_endereco);
             this.Controls.Add(this.tx_sexo);
-            this.Controls.Add(this.tx_celular);
             this.Controls.Add(this.tx_email);
-            this.Controls.Add(this.tx_cpf);
             this.Controls.Add(this.tx_nome);
             this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.Salvar_bt);
@@ -169,14 +180,14 @@
         #endregion
 
         private System.Windows.Forms.TextBox tx_senha;
-        private System.Windows.Forms.TextBox tx_dataNasc;
         private System.Windows.Forms.TextBox tx_endereco;
         private System.Windows.Forms.TextBox tx_sexo;
-        private System.Windows.Forms.TextBox tx_celular;
         private System.Windows.Forms.TextBox tx_email;
-        private System.Windows.Forms.TextBox tx_cpf;
         private System.Windows.Forms.TextBox tx_nome;
         private System.Windows.Forms.Button bt_cancelar;
         private System.Windows.Forms.Button Salvar_bt;
+        private System.Windows.Forms.MaskedTextBox tx_cpf;
+        private System.Windows.Forms.MaskedTextBox tx_dataNasc;
+        private System.Windows.Forms.MaskedTextBox tx_celular;
     }
 }

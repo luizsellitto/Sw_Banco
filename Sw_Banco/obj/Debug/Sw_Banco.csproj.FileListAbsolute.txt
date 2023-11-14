@@ -28,3 +28,8 @@ D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.pdb
 D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\bin\Debug\Sw_Banco.exe.config
 D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\bin\Debug\Sw_Banco.exe
 D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\bin\Debug\Sw_Banco.pdb
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.emprestimo.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.pix.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.PixRevisao.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.Transferencia.resources
+D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.TransferenciaRevisao.resources

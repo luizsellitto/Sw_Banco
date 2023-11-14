@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Transferencia));
             this.bt_Confirmar = new System.Windows.Forms.Button();
             this.bt_Cancelar = new System.Windows.Forms.Button();
-            this.tx_chave = new System.Windows.Forms.TextBox();
             this.tx_valor = new System.Windows.Forms.TextBox();
+            this.tx_chave = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // bt_Confirmar
@@ -57,23 +57,26 @@
             this.bt_Cancelar.TabIndex = 1;
             this.bt_Cancelar.UseVisualStyleBackColor = false;
             // 
-            // tx_chave
-            // 
-            this.tx_chave.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tx_chave.Location = new System.Drawing.Point(327, 189);
-            this.tx_chave.Multiline = true;
-            this.tx_chave.Name = "tx_chave";
-            this.tx_chave.Size = new System.Drawing.Size(133, 25);
-            this.tx_chave.TabIndex = 2;
-            // 
             // tx_valor
             // 
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tx_valor.Location = new System.Drawing.Point(327, 288);
+            this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_valor.Location = new System.Drawing.Point(327, 292);
             this.tx_valor.Multiline = true;
             this.tx_valor.Name = "tx_valor";
-            this.tx_valor.Size = new System.Drawing.Size(133, 25);
+            this.tx_valor.Size = new System.Drawing.Size(133, 17);
             this.tx_valor.TabIndex = 3;
+            // 
+            // tx_chave
+            // 
+            this.tx_chave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_chave.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_chave.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_chave.Location = new System.Drawing.Point(336, 192);
+            this.tx_chave.Mask = "000.000.000-00";
+            this.tx_chave.Name = "tx_chave";
+            this.tx_chave.Size = new System.Drawing.Size(100, 19);
+            this.tx_chave.TabIndex = 23;
             // 
             // Transferencia
             // 
@@ -82,8 +85,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tx_valor);
             this.Controls.Add(this.tx_chave);
+            this.Controls.Add(this.tx_valor);
             this.Controls.Add(this.bt_Cancelar);
             this.Controls.Add(this.bt_Confirmar);
             this.Name = "Transferencia";
@@ -97,7 +100,7 @@
 
         private System.Windows.Forms.Button bt_Confirmar;
         private System.Windows.Forms.Button bt_Cancelar;
-        private System.Windows.Forms.TextBox tx_chave;
         private System.Windows.Forms.TextBox tx_valor;
+        private System.Windows.Forms.MaskedTextBox tx_chave;
     }
 }

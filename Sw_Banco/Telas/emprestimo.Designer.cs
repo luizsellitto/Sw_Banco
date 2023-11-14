@@ -39,6 +39,7 @@
             // tx_motivo
             // 
             this.tx_motivo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_motivo.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_motivo.Location = new System.Drawing.Point(355, 178);
             this.tx_motivo.Multiline = true;
             this.tx_motivo.Name = "tx_motivo";
@@ -48,6 +49,7 @@
             // tx_valor
             // 
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_valor.Location = new System.Drawing.Point(355, 241);
             this.tx_valor.Multiline = true;
             this.tx_valor.Name = "tx_valor";
@@ -57,6 +59,7 @@
             // tx_totalJuros
             // 
             this.tx_totalJuros.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_totalJuros.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_totalJuros.Location = new System.Drawing.Point(405, 309);
             this.tx_totalJuros.Multiline = true;
             this.tx_totalJuros.Name = "tx_totalJuros";

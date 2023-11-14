@@ -41,15 +41,17 @@
             // tx_valor
             // 
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_valor.Location = new System.Drawing.Point(360, 134);
             this.tx_valor.Name = "tx_valor";
-            this.tx_valor.Size = new System.Drawing.Size(100, 13);
+            this.tx_valor.Size = new System.Drawing.Size(100, 19);
             this.tx_valor.TabIndex = 9;
             // 
             // tx_chave
             // 
             this.tx_chave.BackColor = System.Drawing.SystemColors.Window;
             this.tx_chave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_chave.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_chave.Location = new System.Drawing.Point(76, 379);
             this.tx_chave.Multiline = true;
             this.tx_chave.Name = "tx_chave";
@@ -60,6 +62,7 @@
             // 
             this.tx_instituicao.BackColor = System.Drawing.SystemColors.Window;
             this.tx_instituicao.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_instituicao.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_instituicao.Location = new System.Drawing.Point(94, 329);
             this.tx_instituicao.Multiline = true;
             this.tx_instituicao.Name = "tx_instituicao";
@@ -70,6 +73,7 @@
             // 
             this.tx_id.BackColor = System.Drawing.SystemColors.Window;
             this.tx_id.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_id.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_id.Location = new System.Drawing.Point(56, 284);
             this.tx_id.Multiline = true;
             this.tx_id.Name = "tx_id";
@@ -102,6 +106,7 @@
             // 
             this.tx_nome.BackColor = System.Drawing.SystemColors.Window;
             this.tx_nome.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_nome.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_nome.Location = new System.Drawing.Point(76, 232);
             this.tx_nome.Multiline = true;
             this.tx_nome.Name = "tx_nome";
