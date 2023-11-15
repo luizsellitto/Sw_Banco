@@ -46,16 +46,18 @@ namespace Sw_Banco.Telas
                     if (f > c)
                     {
                         id = f + 1;
-                        string cpf = tx_nome.Text;
-                        string nome = tx_cpf.Text;
+                        string cpf = tx_cpf.Text;
+                        string nome = tx_nome.Text;
                         string email = tx_email.Text;
-                        DateTime dataNasc = Convert.ToDateTime(tx_celular.Text);
-                        string telefone = tx_sexo.Text;
-                        string sexo = tx_endereco.Text;
-                        string endereco = tx_dataNasc.Text;
+                        DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
+                        string telefone = tx_celular.Text;
+                        string sexo = tx_sexo.Text;
+                        string endereco = tx_endereco.Text;
                         string senha = tx_senha.Text;
-                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
+                        List<Extrato> extratos = new List<Extrato>();
+                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos);
                         contas.Add(newcon);
+                        MessageBox.Show($"O seu ID é: {id}");
                         this.Hide();
                         TelaF loginFC = new TelaF(contas, funcionarios);
                         loginFC.ShowDialog();
@@ -63,16 +65,18 @@ namespace Sw_Banco.Telas
                     else
                     {
                         id = c + 1;
-                        string cpf = tx_nome.Text;
-                        string nome = tx_cpf.Text;
+                        string cpf = tx_cpf.Text;
+                        string nome = tx_nome.Text;
                         string email = tx_email.Text;
-                        DateTime dataNasc = Convert.ToDateTime(tx_celular.Text);
-                        string telefone = tx_sexo.Text;
-                        string sexo = tx_endereco.Text;
-                        string endereco = tx_dataNasc.Text;
+                        DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
+                        string telefone = tx_celular.Text;
+                        string sexo = tx_sexo.Text;
+                        string endereco = tx_endereco.Text;
                         string senha = tx_senha.Text;
-                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
+                        List<Extrato> extratos = new List<Extrato>();
+                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos);
                         contas.Add(newcon);
+                        MessageBox.Show($"O seu ID é: {id}");
                         this.Hide();
                         TelaF loginFC = new TelaF(contas, funcionarios);
                         loginFC.ShowDialog();
@@ -86,16 +90,18 @@ namespace Sw_Banco.Telas
 
 
                     id = f + 1;
-                    string cpf = tx_nome.Text;
-                    string nome = tx_cpf.Text;
+                    string cpf = tx_cpf.Text;
+                    string nome = tx_nome.Text;
                     string email = tx_email.Text;
-                    DateTime dataNasc = Convert.ToDateTime(tx_celular.Text);
-                    string telefone = tx_sexo.Text;
-                    string sexo = tx_endereco.Text;
-                    string endereco = tx_dataNasc.Text;
+                    DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
+                    string telefone = tx_celular.Text;
+                    string sexo = tx_sexo.Text;
+                    string endereco = tx_endereco.Text;
                     string senha = tx_senha.Text;
-                    Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
+                    List<Extrato> extratos = new List<Extrato>();
+                    Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos);
                     contas.Add(newcon);
+                    MessageBox.Show($"O seu ID é: {id}");
                     this.Hide();
                     TelaF loginFC = new TelaF(contas, funcionarios);
                     loginFC.ShowDialog();

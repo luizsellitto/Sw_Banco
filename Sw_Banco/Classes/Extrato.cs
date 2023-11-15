@@ -11,8 +11,16 @@ namespace Sw_Banco.Classes
         public double Saldo { get; set; }
         public double SaldoFinal { get; set; }
         public DateTime Data { get; set; }
-        public double Valor { get; set; }
-        public string Destinatario { get; set; }
+        public string Valor { get; set; }
+        public string Tipo { get; set; }
 
+        public Extrato(double saldo, double saldoFinal, DateTime data, string valor, string tipo)
+        {
+            Saldo = saldo;
+            SaldoFinal = saldoFinal;
+            Data = data;
+            Valor = valor;
+            Tipo = tipo;
+        }
     }
 }

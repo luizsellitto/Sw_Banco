@@ -19,8 +19,9 @@ namespace Sw_Banco.Classes
         public double Saldo { get; set; }
         public string Senha { get; set; }
         public List<Extrato> Extras { get; set; }
+        
 
-        public Conta(int id, string cpf, string nome,string email, DateTime dataNasc, string telefone, string sexo, string endereco, string senha)
+        public Conta(int id, string cpf, string nome,string email, DateTime dataNasc, string telefone, string sexo, string endereco, string senha, double saldo, List<Extrato> extras)
         {
             Id_con = id;
             Cpf = cpf;
@@ -31,18 +32,20 @@ namespace Sw_Banco.Classes
             Sexo = sexo;
             Endereco = endereco;
             Senha = senha;
+            Saldo = saldo;
+            Extras = extras;
         }
 
         public virtual void Sacar(double valor)
         {
             if ((Saldo - valor) <= 0)
             {
-                Console.WriteLine("Saldo insulficiente para o saque");
+                string text = ("Saldo insulficiente para o saque");
             }
             else
             {
                 Saldo = Saldo - valor;
-                Console.WriteLine($"O valor de R${valor} foi sacado com sucesso");
+                string text = ($"O valor de R${valor} foi sacado com sucesso");
             }
         }
         public void Depositar(double valor)

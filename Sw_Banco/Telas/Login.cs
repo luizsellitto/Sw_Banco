@@ -29,65 +29,62 @@ namespace Sw_Banco
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int idv = 0;
-            string passv= " ";
-            foreach (var a in funcionarios)
+            try
             {
-                if(a.Id_fun == Convert.ToInt32(id_tx.Text))
+                int idv = 0;
+                string passv = " ";
+                foreach (var a in funcionarios)
                 {
-                    idv = a.Id_fun;
-                    passv = a.Senha;
-                }
-            }
-
-            if (idv == Convert.ToInt32(id_tx.Text) && passv == pass_mask.Text)
-            {
-                this.Hide();
-                TelaF loginFC = new TelaF(contas, funcionarios);
-                loginFC.ShowDialog();
-
-            }
-            else
-            {
-                foreach (var a in contas)
-                {
-                    if (a.Id_con == Convert.ToInt32(id_tx.Text))
+                    if (a.Id_fun == Convert.ToInt32(id_tx.Text))
                     {
-                        idv = a.Id_con;
+                        idv = a.Id_fun;
                         passv = a.Senha;
                     }
-                    
-                    
                 }
+
                 if (idv == Convert.ToInt32(id_tx.Text) && passv == pass_mask.Text)
+                {
+                    this.Hide();
+                    TelaF loginFC = new TelaF(contas, funcionarios);
+                    loginFC.ShowDialog();
+
+                }
+                else
+                {
+                    foreach (var a in contas)
+                    {
+                        if (a.Id_con == Convert.ToInt32(id_tx.Text))
+                        {
+                            idv = a.Id_con;
+                            passv = a.Senha;
+                        }
+
+
+                    }
+                    if (idv == Convert.ToInt32(id_tx.Text) && passv == pass_mask.Text)
                     {
                         this.Hide();
-                        Menup menu = new Menup();
+
+                        Menup menu = new Menup(contas, funcionarios, idv);
                         menu.ShowDialog();
 
                     }
-                else
+                    else
                     {
                         MessageBox.Show("Login ou senha incorretos.");
                     }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Houve algum erro");
             }
             
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Login login = new Login(contas, funcionarios);
-            login.Dispose();
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pass_mask_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
+            this.Hide();
         }
     }
 }

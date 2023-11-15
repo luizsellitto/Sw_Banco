@@ -33,3 +33,8 @@ D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.pix.re
 D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.PixRevisao.resources
 D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.Transferencia.resources
 D:\IFRO\poo\trabalho 4bimestre\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.TransferenciaRevisao.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.emprestimo.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.pix.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.PixRevisao.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.Transferencia.resources
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.TransferenciaRevisao.resources

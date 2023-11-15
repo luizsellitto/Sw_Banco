@@ -61,11 +61,11 @@
     <Compile Include="Telas\CadastrarF.Designer.cs">
       <DependentUpon>CadastrarF.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\emprestimo.cs">
+    <Compile Include="Telas\Emprestimo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Telas\emprestimo.Designer.cs">
-      <DependentUpon>emprestimo.cs</DependentUpon>
+    <Compile Include="Telas\Emprestimo.Designer.cs">
+      <DependentUpon>Emprestimo.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\Login.cs">
       <SubType>Form</SubType>
@@ -81,11 +81,11 @@
     <Compile Include="Telas\Menup.Designer.cs">
       <DependentUpon>Menup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\pix.cs">
+    <Compile Include="Telas\Pix.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Telas\pix.Designer.cs">
-      <DependentUpon>pix.cs</DependentUpon>
+    <Compile Include="Telas\Pix.Designer.cs">
+      <DependentUpon>Pix.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\PixRevisao.cs">
       <SubType>Form</SubType>
@@ -117,8 +117,8 @@
     <EmbeddedResource Include="Telas\CadastrarF.resx">
       <DependentUpon>CadastrarF.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Telas\emprestimo.resx">
-      <DependentUpon>emprestimo.cs</DependentUpon>
+    <EmbeddedResource Include="Telas\Emprestimo.resx">
+      <DependentUpon>Emprestimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -135,8 +135,8 @@
     <EmbeddedResource Include="Telas\Menup.resx">
       <DependentUpon>Menup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Telas\pix.resx">
-      <DependentUpon>pix.cs</DependentUpon>
+    <EmbeddedResource Include="Telas\Pix.resx">
+      <DependentUpon>Pix.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\PixRevisao.resx">
       <DependentUpon>PixRevisao.cs</DependentUpon>

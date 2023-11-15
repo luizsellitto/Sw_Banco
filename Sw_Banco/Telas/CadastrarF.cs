@@ -37,8 +37,8 @@ namespace Sw_Banco.Telas
                     if (f > c)
                     {
                         id = f + 1;
-                        string cpf = tx_nome.Text;
-                        string nome = tx_cpf.Text;
+                        string cpf = tx_cpf.Text;
+                        string nome = tx_nome.Text;
                         string email = tx_email.Text;
                         DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
                         string telefone = tx_celular.Text;
@@ -47,6 +47,7 @@ namespace Sw_Banco.Telas
                         string senha = tx_senha.Text;
                         Funcionario newfun = new Funcionario(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
                         funcionarios.Add(newfun);
+                        MessageBox.Show($"O seu ID é: {id}");
                         this.Hide();
                         TelaF loginFC = new TelaF(contas, funcionarios);
                         loginFC.ShowDialog();
@@ -54,8 +55,8 @@ namespace Sw_Banco.Telas
                     else
                     {
                         id = c + 1;
-                        string cpf = tx_nome.Text;
-                        string nome = tx_cpf.Text;
+                        string cpf = tx_cpf.Text;
+                        string nome = tx_nome.Text;
                         string email = tx_email.Text;
                         DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
                         string telefone = tx_celular.Text;
@@ -64,6 +65,7 @@ namespace Sw_Banco.Telas
                         string senha = tx_senha.Text;
                         Funcionario newfun = new Funcionario(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
                         funcionarios.Add(newfun);
+                        MessageBox.Show($"O seu ID é: {id}");
                         this.Hide();
                         TelaF loginFC = new TelaF(contas, funcionarios);
                         loginFC.ShowDialog();
@@ -77,20 +79,21 @@ namespace Sw_Banco.Telas
 
                     
                         id = f + 1;
-                        string cpf = tx_nome.Text;
-                        string nome = tx_cpf.Text;
-                        string email = tx_email.Text;
-                        DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
-                        string telefone = tx_celular.Text;
-                        string sexo = tx_sexo.Text;
-                        string endereco = tx_endereco.Text;
-                        string senha = tx_senha.Text;
-                        Funcionario newfun = new Funcionario(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
-                        funcionarios.Add(newfun);
-                        this.Hide();
-                        TelaF loginFC = new TelaF(contas, funcionarios);
-                        loginFC.ShowDialog();
-                    
+                    string cpf = tx_cpf.Text;
+                    string nome = tx_nome.Text;
+                    string email = tx_email.Text;
+                    DateTime dataNasc = Convert.ToDateTime(tx_dataNasc.Text);
+                    string telefone = tx_celular.Text;
+                    string sexo = tx_sexo.Text;
+                    string endereco = tx_endereco.Text;
+                    string senha = tx_senha.Text;
+                    Funcionario newfun = new Funcionario(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha);
+                    funcionarios.Add(newfun);
+                    MessageBox.Show($"O seu ID é: {id}");
+                    this.Hide();
+                    TelaF loginFC = new TelaF(contas, funcionarios);
+                    loginFC.ShowDialog();
+
                 }
             }
             catch (Exception ex)
