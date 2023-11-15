@@ -74,5 +74,10 @@ namespace Sw_Banco.Telas
                 }
             }
         }
+
+        private void tx_valor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

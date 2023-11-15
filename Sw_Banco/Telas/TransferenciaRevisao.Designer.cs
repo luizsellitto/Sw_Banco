@@ -43,11 +43,12 @@
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_valor.Enabled = false;
             this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_valor.Location = new System.Drawing.Point(478, 158);
+            this.tx_valor.Location = new System.Drawing.Point(447, 157);
             this.tx_valor.Margin = new System.Windows.Forms.Padding(4);
             this.tx_valor.Name = "tx_valor";
             this.tx_valor.Size = new System.Drawing.Size(133, 27);
             this.tx_valor.TabIndex = 9;
+            this.tx_valor.TextChanged += new System.EventHandler(this.tx_valor_TextChanged);
             // 
             // tx_cpf
             // 
@@ -68,7 +69,7 @@
             this.tx_instituicao.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_instituicao.Enabled = false;
             this.tx_instituicao.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_instituicao.Location = new System.Drawing.Point(125, 405);
+            this.tx_instituicao.Location = new System.Drawing.Point(101, 466);
             this.tx_instituicao.Margin = new System.Windows.Forms.Padding(4);
             this.tx_instituicao.Multiline = true;
             this.tx_instituicao.Name = "tx_instituicao";
@@ -81,11 +82,11 @@
             this.tx_id.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_id.Enabled = false;
             this.tx_id.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_id.Location = new System.Drawing.Point(75, 350);
+            this.tx_id.Location = new System.Drawing.Point(85, 386);
             this.tx_id.Margin = new System.Windows.Forms.Padding(4);
             this.tx_id.Multiline = true;
             this.tx_id.Name = "tx_id";
-            this.tx_id.Size = new System.Drawing.Size(594, 30);
+            this.tx_id.Size = new System.Drawing.Size(584, 30);
             this.tx_id.TabIndex = 6;
             // 
             // bt_cancelar

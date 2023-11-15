@@ -67,6 +67,12 @@
     <Compile Include="Telas\Emprestimo.Designer.cs">
       <DependentUpon>Emprestimo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\EmprestimoRevisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\EmprestimoRevisao.Designer.cs">
+      <DependentUpon>EmprestimoRevisao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\Emprestimo.resx">
       <DependentUpon>Emprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\EmprestimoRevisao.resx">
+      <DependentUpon>EmprestimoRevisao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

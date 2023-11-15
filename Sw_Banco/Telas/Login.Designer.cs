@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.bt_login = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bt_cancelar = new System.Windows.Forms.Button();
             this.pass_mask = new System.Windows.Forms.MaskedTextBox();
             this.id_tx = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -39,6 +39,7 @@
             // 
             this.bt_login.BackColor = System.Drawing.Color.Transparent;
             this.bt_login.FlatAppearance.BorderSize = 0;
+            this.bt_login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.bt_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_login.Location = new System.Drawing.Point(652, 572);
             this.bt_login.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -48,18 +49,19 @@
             this.bt_login.UseVisualStyleBackColor = false;
             this.bt_login.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // bt_cancelar
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(339, 572);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 71);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.bt_cancelar.BackColor = System.Drawing.Color.Transparent;
+            this.bt_cancelar.FlatAppearance.BorderSize = 0;
+            this.bt_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_cancelar.Location = new System.Drawing.Point(339, 572);
+            this.bt_cancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bt_cancelar.Name = "bt_cancelar";
+            this.bt_cancelar.Size = new System.Drawing.Size(187, 71);
+            this.bt_cancelar.TabIndex = 0;
+            this.bt_cancelar.UseVisualStyleBackColor = false;
+            this.bt_cancelar.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // pass_mask
             // 
@@ -93,7 +95,7 @@
             this.ClientSize = new System.Drawing.Size(1181, 702);
             this.Controls.Add(this.pass_mask);
             this.Controls.Add(this.bt_login);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.id_tx);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximumSize = new System.Drawing.Size(1199, 749);
@@ -108,7 +110,7 @@
 
         #endregion
         private System.Windows.Forms.Button bt_login;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bt_cancelar;
         private System.Windows.Forms.MaskedTextBox pass_mask;
         private System.Windows.Forms.TextBox id_tx;
     }
