@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Emprestimo));
             this.tx_motivo = new System.Windows.Forms.TextBox();
             this.tx_valor = new System.Windows.Forms.TextBox();
-            this.tx_totalJuros = new System.Windows.Forms.TextBox();
+            this.tx_limitedeemprestimo = new System.Windows.Forms.TextBox();
             this.bt_confirmar = new System.Windows.Forms.Button();
             this.bt_cancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -58,17 +58,17 @@
             this.tx_valor.Size = new System.Drawing.Size(240, 30);
             this.tx_valor.TabIndex = 1;
             // 
-            // tx_totalJuros
+            // tx_limitedeemprestimo
             // 
-            this.tx_totalJuros.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tx_totalJuros.Enabled = false;
-            this.tx_totalJuros.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_totalJuros.Location = new System.Drawing.Point(540, 380);
-            this.tx_totalJuros.Margin = new System.Windows.Forms.Padding(4);
-            this.tx_totalJuros.Multiline = true;
-            this.tx_totalJuros.Name = "tx_totalJuros";
-            this.tx_totalJuros.Size = new System.Drawing.Size(191, 30);
-            this.tx_totalJuros.TabIndex = 2;
+            this.tx_limitedeemprestimo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_limitedeemprestimo.Enabled = false;
+            this.tx_limitedeemprestimo.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_limitedeemprestimo.Location = new System.Drawing.Point(540, 380);
+            this.tx_limitedeemprestimo.Margin = new System.Windows.Forms.Padding(4);
+            this.tx_limitedeemprestimo.Multiline = true;
+            this.tx_limitedeemprestimo.Name = "tx_limitedeemprestimo";
+            this.tx_limitedeemprestimo.Size = new System.Drawing.Size(191, 30);
+            this.tx_limitedeemprestimo.TabIndex = 2;
             // 
             // bt_confirmar
             // 
@@ -94,6 +94,7 @@
             this.bt_cancelar.Size = new System.Drawing.Size(151, 32);
             this.bt_cancelar.TabIndex = 4;
             this.bt_cancelar.UseVisualStyleBackColor = false;
+            this.bt_cancelar.Click += new System.EventHandler(this.bt_cancelar_Click);
             // 
             // Emprestimo
             // 
@@ -105,7 +106,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.bt_confirmar);
-            this.Controls.Add(this.tx_totalJuros);
+            this.Controls.Add(this.tx_limitedeemprestimo);
             this.Controls.Add(this.tx_valor);
             this.Controls.Add(this.tx_motivo);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -120,7 +121,7 @@
 
         private System.Windows.Forms.TextBox tx_motivo;
         private System.Windows.Forms.TextBox tx_valor;
-        private System.Windows.Forms.TextBox tx_totalJuros;
+        private System.Windows.Forms.TextBox tx_limitedeemprestimo;
         private System.Windows.Forms.Button bt_confirmar;
         private System.Windows.Forms.Button bt_cancelar;
     }

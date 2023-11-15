@@ -87,6 +87,7 @@
             this.bt_extrato.Size = new System.Drawing.Size(127, 132);
             this.bt_extrato.TabIndex = 3;
             this.bt_extrato.UseVisualStyleBackColor = false;
+            this.bt_extrato.Click += new System.EventHandler(this.bt_extrato_Click);
             // 
             // bt_sair
             // 

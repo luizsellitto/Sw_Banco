@@ -19,9 +19,11 @@ namespace Sw_Banco.Classes
         public double Saldo { get; set; }
         public string Senha { get; set; }
         public List<Extrato> Extras { get; set; }
+        public double LimiteEmp { get; set; }
+        public double TotalEmp { get; set; }
         
 
-        public Conta(int id, string cpf, string nome,string email, DateTime dataNasc, string telefone, string sexo, string endereco, string senha, double saldo, List<Extrato> extras)
+        public Conta(int id, string cpf, string nome,string email, DateTime dataNasc, string telefone, string sexo, string endereco, string senha, double saldo, List<Extrato> extras, double LE, double TE)
         {
             Id_con = id;
             Cpf = cpf;
@@ -34,6 +36,9 @@ namespace Sw_Banco.Classes
             Senha = senha;
             Saldo = saldo;
             Extras = extras;
+            LimiteEmp = LE;
+            TotalEmp = TE;
+
         }
 
         public virtual void Sacar(double valor)

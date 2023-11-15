@@ -60,5 +60,10 @@ namespace Sw_Banco.Telas
             Emprestimo emprestimo = new Emprestimo(contas,funcionarios, idv);
             emprestimo.Show();
         }
+
+        private void bt_extrato_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

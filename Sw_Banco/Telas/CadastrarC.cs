@@ -55,7 +55,7 @@ namespace Sw_Banco.Telas
                         string endereco = tx_endereco.Text;
                         string senha = tx_senha.Text;
                         List<Extrato> extratos = new List<Extrato>();
-                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos);
+                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos, 1000, 0);
                         contas.Add(newcon);
                         MessageBox.Show($"O seu ID é: {id}");
                         this.Hide();
@@ -74,7 +74,7 @@ namespace Sw_Banco.Telas
                         string endereco = tx_endereco.Text;
                         string senha = tx_senha.Text;
                         List<Extrato> extratos = new List<Extrato>();
-                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos);
+                        Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos, 1000, 0);
                         contas.Add(newcon);
                         MessageBox.Show($"O seu ID é: {id}");
                         this.Hide();
@@ -99,7 +99,7 @@ namespace Sw_Banco.Telas
                     string endereco = tx_endereco.Text;
                     string senha = tx_senha.Text;
                     List<Extrato> extratos = new List<Extrato>();
-                    Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos);
+                    Conta newcon = new Conta(id, cpf, nome, email, dataNasc, telefone, sexo, endereco, senha, 0, extratos, 1000, 0);
                     contas.Add(newcon);
                     MessageBox.Show($"O seu ID é: {id}");
                     this.Hide();

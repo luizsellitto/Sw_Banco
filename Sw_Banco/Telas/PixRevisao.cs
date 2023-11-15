@@ -49,31 +49,38 @@ namespace Sw_Banco.Telas
 
         private void bt_confirmar_Click_1(object sender, EventArgs e)
         {
-            foreach (var b in contas)
+            try
             {
-                if (b.Id_con == idv)
+                foreach (var b in contas)
                 {
-
-                    foreach (var a in contas)
+                    if (b.Id_con == idv)
                     {
-                        if (a.Id_con == ido)
-                        {
-                            string valors = $"- {tx_valor.Text}";
-                            string valorr = $"+ {tx_valor.Text}";
-                            double saldof = b.Saldo -= valor;
-                            Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valors, $"Pix efetuado para: {a.Nome}");
-                            double saldor = a.Saldo += valor;
-                            Extrato aextra = new Extrato(a.Saldo, saldor, DateTime.Now, valorr, "Pix Recebido");
-                            MessageBox.Show("Pix Realizado");
-                            this.Hide();
-                            Pix pix = new Pix(contas, funcionarios, idv);
-                            pix.Show();
-                        }
 
+                        foreach (var a in contas)
+                        {
+
+                            if (a.Id_con == ido)
+                            {
+                                string valors = $"- {tx_valor.Text}";
+                                string valorr = $"+ {tx_valor.Text}";
+                                double saldof = b.Saldo -= valor;
+                                Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valors, $"Pix efetuado para: {a.Nome}");
+                                double saldor = a.Saldo += valor;
+                                Extrato aextra = new Extrato(a.Saldo, saldor, DateTime.Now, valorr, "Pix Recebido");
+                                MessageBox.Show("Pix Realizado");
+                                this.Hide();
+                                Menup menu = new Menup(contas, funcionarios, idv);
+                                menu.Show();
+                            }
+
+                        }
                     }
                 }
             }
-
+            catch (Exception ex)
+            {
+                MessageBox.Show("Houve Algum Erro");
+            }
         }
     }
 }

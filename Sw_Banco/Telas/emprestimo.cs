@@ -22,25 +22,63 @@ namespace Sw_Banco.Telas
             contas = nconta;
             funcionarios = nfuncionarios;
             idv = id;
+            foreach (var a in contas)
+            {
+                if (a.Id_con == idv)
+                {
+                    double LE = a.LimiteEmp;
+                    double TE = a.TotalEmp;
+                    tx_limitedeemprestimo.Text = Convert.ToString((LE - TE).ToString($"F2"));
+
+                }
+            }
         }
 
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
-            double valor = Convert.ToDouble(tx_valor.Text);
-            foreach (var b in contas)
+            try
             {
-                if (b.Id_con == idv)
+                double valor = Convert.ToDouble(tx_valor.Text);
+                foreach (var b in contas)
                 {
-                            string valorr = $"+ {tx_valor.Text}";
-                            double saldof = b.Saldo += valor;
-                            Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valorr, "Empréstimo Adquirido");
-                            MessageBox.Show("Emprestimo Realizado com Sucesso");
+                    if (b.Id_con == idv)
+                    {
+                        double LE = b.LimiteEmp;
+                        double TE = b.TotalEmp;
+                        double LT = LE - TE;
+                        if (valor <= 0)
+                        {
+                            MessageBox.Show("O valor de empréstimo não pode ser negativo ou nulo");
+                        }
+                        else if (valor <= LT)
+                        {
+
+                            double juros = (valor * 1.30);
                             this.Hide();
-                            Menup menu = new Menup(contas, funcionarios, idv);
-                            menu.Show();
-                        
+                            EmprestimoRevisao emrevisao = new EmprestimoRevisao(contas, funcionarios, idv, valor, juros);
+                            emrevisao.Show();
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("O valor atual ultrapassa o seu Limite de Empréstimo");
+                        }
+
+
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Houve Algum Erro");
+            }
+        }
+
+        private void bt_cancelar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menup menu = new Menup(contas, funcionarios, idv);
+            menu.Show();
         }
     }
 }

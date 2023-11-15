@@ -35,6 +35,7 @@
             this.tx_cpf = new System.Windows.Forms.TextBox();
             this.bt_confirmar = new System.Windows.Forms.Button();
             this.bt_cancelar = new System.Windows.Forms.Button();
+            this.tx_juros = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tx_valor
@@ -98,6 +99,7 @@
             this.bt_confirmar.Size = new System.Drawing.Size(147, 32);
             this.bt_confirmar.TabIndex = 14;
             this.bt_confirmar.UseVisualStyleBackColor = false;
+            this.bt_confirmar.Click += new System.EventHandler(this.bt_confirmar_Click);
             // 
             // bt_cancelar
             // 
@@ -110,6 +112,16 @@
             this.bt_cancelar.Size = new System.Drawing.Size(147, 32);
             this.bt_cancelar.TabIndex = 15;
             this.bt_cancelar.UseVisualStyleBackColor = false;
+            this.bt_cancelar.Click += new System.EventHandler(this.bt_cancelar_Click);
+            // 
+            // tx_juros
+            // 
+            this.tx_juros.Enabled = false;
+            this.tx_juros.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_juros.Location = new System.Drawing.Point(392, 207);
+            this.tx_juros.Name = "tx_juros";
+            this.tx_juros.Size = new System.Drawing.Size(200, 34);
+            this.tx_juros.TabIndex = 16;
             // 
             // EmprestimoRevisao
             // 
@@ -118,6 +130,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1073, 556);
+            this.Controls.Add(this.tx_juros);
             this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.bt_confirmar);
             this.Controls.Add(this.tx_cpf);
@@ -139,5 +152,6 @@
         private System.Windows.Forms.TextBox tx_cpf;
         private System.Windows.Forms.Button bt_confirmar;
         private System.Windows.Forms.Button bt_cancelar;
+        private System.Windows.Forms.TextBox tx_juros;
     }
 }

@@ -59,3 +59,4 @@ C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2
 C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2-Banco\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.csproj.CoreCompileInputs.cache
 C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2-Banco\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.exe
 C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2-Banco\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.pdb
+C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.EmprestimoRevisao.resources

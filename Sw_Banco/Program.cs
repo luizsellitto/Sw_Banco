@@ -20,10 +20,10 @@ namespace Sw_Banco
             Funcionario administrador = new Funcionario(1, "admin", "Administrador", "admin@hotmail.com", DateTime.Now, "None", "None", "None", "1");
             funcionarios.Add(administrador);
             List<Extrato> extratos = new List<Extrato>();
-            Conta cliente = new Conta(2, "admin", "Administrador", "admin@hotmail.com", DateTime.Now, "None", "None", "None", "2", 1000, extratos);
+            Conta cliente = new Conta(2, "admin", "Administrador", "admin@hotmail.com", DateTime.Now, "None", "None", "None", "2", 1000, extratos, 1000, 0);
             contas.Add(cliente);
             List<Extrato> extrato = new List<Extrato>();
-            Conta cliente2 = new Conta(3, "admin", "Administrador", "admin@hotmail.com", DateTime.Now, "None", "None", "None", "2", 1000, extrato);
+            Conta cliente2 = new Conta(3, "admin", "Administrador", "admin@hotmail.com", DateTime.Now, "None", "None", "None", "2", 1000, extrato, 1000, 0);
             contas.Add(cliente2);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
