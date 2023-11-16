@@ -43,7 +43,7 @@
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_valor.Enabled = false;
             this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_valor.Location = new System.Drawing.Point(452, 161);
+            this.tx_valor.Location = new System.Drawing.Point(463, 136);
             this.tx_valor.Margin = new System.Windows.Forms.Padding(4);
             this.tx_valor.Name = "tx_valor";
             this.tx_valor.Size = new System.Drawing.Size(129, 27);
@@ -116,11 +116,13 @@
             // 
             // tx_juros
             // 
+            this.tx_juros.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_juros.Enabled = false;
-            this.tx_juros.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_juros.Location = new System.Drawing.Point(392, 207);
+            this.tx_juros.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx_juros.Location = new System.Drawing.Point(463, 198);
+            this.tx_juros.Margin = new System.Windows.Forms.Padding(4);
             this.tx_juros.Name = "tx_juros";
-            this.tx_juros.Size = new System.Drawing.Size(200, 34);
+            this.tx_juros.Size = new System.Drawing.Size(129, 27);
             this.tx_juros.TabIndex = 16;
             // 
             // EmprestimoRevisao
