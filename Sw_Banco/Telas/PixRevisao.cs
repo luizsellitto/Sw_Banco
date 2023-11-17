@@ -63,24 +63,36 @@ namespace Sw_Banco.Telas
                             {
                                 string valors = $"- {tx_valor.Text}";
                                 string valorr = $"+ {tx_valor.Text}";
-                                double saldof = b.Saldo -= valor;
-                                Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valors, $"Pix efetuado para: {a.Nome}");
-                                double saldor = a.Saldo += valor;
-                                Extrato aextra = new Extrato(a.Saldo, saldor, DateTime.Now, valorr, "Pix Recebido");
+                                double saldof = b.Saldo - valor;
+                                Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valors,"Pix", a.Nome, " ");
+                                b.Saldo -= valor;
+                                b.Extras.Add(bextra);
+
+                                double saldor = a.Saldo + valor;
+                                Extrato aextra = new Extrato(a.Saldo, saldor, DateTime.Now, valorr,"Pix", " ",b.Nome);
+                                a.Saldo += valor;
+                                a.Extras.Add(aextra);
                                 MessageBox.Show("Pix Realizado");
-                                this.Hide();
-                                Menup menu = new Menup(contas, funcionarios, idv);
-                                menu.Show();
+                                goto saida;
                             }
 
                         }
                     }
                 }
+            saida:;
+                this.Hide();
+                Menup menu = new Menup(contas, funcionarios, idv);
+                menu.Show();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Houve Algum Erro");
             }
+        }
+
+        private void PixRevisao_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

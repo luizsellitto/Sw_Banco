@@ -62,19 +62,26 @@ namespace Sw_Banco.Telas
                             {
                                 string valors = $"- {tx_valor.Text}";
                                 string valorr = $"+ {tx_valor.Text}";
-                                double saldof = b.Saldo -= valor;
-                                Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valors, $"Transferência efetuada para: {a.Nome}");
-                                double saldor = a.Saldo += valor;
-                                Extrato aextra = new Extrato(a.Saldo, saldor, DateTime.Now, valorr, "Transferência Recebida");
+                                double saldof = b.Saldo - valor;
+                                Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valors, "Transferência", a.Nome, " ");
+                                b.Saldo -= valor;
+                                b.Extras.Add(bextra);
+
+                                double saldor = a.Saldo + valor;
+                                Extrato aextra = new Extrato(a.Saldo, saldor, DateTime.Now, valorr, "Transferência", " ", b.Nome);
+                                a.Saldo += valor;
+                                a.Extras.Add(aextra);
                                 MessageBox.Show("Transferência Realizada");
-                                this.Hide();
-                                Menup menu = new Menup(contas, funcionarios, idv);
-                                menu.Show();
+                                goto saida;
                             }
 
                         }
                     }
                 }
+            saida:;
+                this.Hide();
+                Menup menu = new Menup(contas, funcionarios, idv);
+                menu.Show();
             }
             catch (Exception ex)
             {
@@ -83,6 +90,11 @@ namespace Sw_Banco.Telas
         }
 
         private void tx_valor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TransferenciaRevisao_Load(object sender, EventArgs e)
         {
 
         }

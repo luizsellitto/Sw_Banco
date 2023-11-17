@@ -44,11 +44,10 @@
             this.tx_nome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_nome.Enabled = false;
             this.tx_nome.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_nome.Location = new System.Drawing.Point(91, 286);
-            this.tx_nome.Margin = new System.Windows.Forms.Padding(4);
+            this.tx_nome.Location = new System.Drawing.Point(68, 232);
             this.tx_nome.Multiline = true;
             this.tx_nome.Name = "tx_nome";
-            this.tx_nome.Size = new System.Drawing.Size(568, 30);
+            this.tx_nome.Size = new System.Drawing.Size(426, 24);
             this.tx_nome.TabIndex = 0;
             // 
             // tx_id
@@ -57,11 +56,10 @@
             this.tx_id.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_id.Enabled = false;
             this.tx_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_id.Location = new System.Drawing.Point(91, 386);
-            this.tx_id.Margin = new System.Windows.Forms.Padding(4);
+            this.tx_id.Location = new System.Drawing.Point(68, 314);
             this.tx_id.Multiline = true;
             this.tx_id.Name = "tx_id";
-            this.tx_id.Size = new System.Drawing.Size(568, 30);
+            this.tx_id.Size = new System.Drawing.Size(426, 24);
             this.tx_id.TabIndex = 1;
             // 
             // tx_instituicao
@@ -70,11 +68,10 @@
             this.tx_instituicao.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_instituicao.Enabled = false;
             this.tx_instituicao.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_instituicao.Location = new System.Drawing.Point(91, 468);
-            this.tx_instituicao.Margin = new System.Windows.Forms.Padding(4);
+            this.tx_instituicao.Location = new System.Drawing.Point(68, 380);
             this.tx_instituicao.Multiline = true;
             this.tx_instituicao.Name = "tx_instituicao";
-            this.tx_instituicao.Size = new System.Drawing.Size(544, 30);
+            this.tx_instituicao.Size = new System.Drawing.Size(408, 24);
             this.tx_instituicao.TabIndex = 2;
             // 
             // tx_cpf
@@ -83,11 +80,10 @@
             this.tx_cpf.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_cpf.Enabled = false;
             this.tx_cpf.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_cpf.Location = new System.Drawing.Point(91, 468);
-            this.tx_cpf.Margin = new System.Windows.Forms.Padding(4);
+            this.tx_cpf.Location = new System.Drawing.Point(68, 380);
             this.tx_cpf.Multiline = true;
             this.tx_cpf.Name = "tx_cpf";
-            this.tx_cpf.Size = new System.Drawing.Size(568, 30);
+            this.tx_cpf.Size = new System.Drawing.Size(426, 24);
             this.tx_cpf.TabIndex = 3;
             // 
             // tx_valor
@@ -95,10 +91,9 @@
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_valor.Enabled = false;
             this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_valor.Location = new System.Drawing.Point(445, 162);
-            this.tx_valor.Margin = new System.Windows.Forms.Padding(4);
+            this.tx_valor.Location = new System.Drawing.Point(334, 132);
             this.tx_valor.Name = "tx_valor";
-            this.tx_valor.Size = new System.Drawing.Size(133, 27);
+            this.tx_valor.Size = new System.Drawing.Size(100, 22);
             this.tx_valor.TabIndex = 4;
             // 
             // bt_confirmar
@@ -106,10 +101,9 @@
             this.bt_confirmar.BackColor = System.Drawing.Color.Transparent;
             this.bt_confirmar.FlatAppearance.BorderSize = 0;
             this.bt_confirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_confirmar.Location = new System.Drawing.Point(897, 500);
-            this.bt_confirmar.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_confirmar.Location = new System.Drawing.Point(673, 406);
             this.bt_confirmar.Name = "bt_confirmar";
-            this.bt_confirmar.Size = new System.Drawing.Size(147, 32);
+            this.bt_confirmar.Size = new System.Drawing.Size(110, 26);
             this.bt_confirmar.TabIndex = 13;
             this.bt_confirmar.UseVisualStyleBackColor = false;
             this.bt_confirmar.Click += new System.EventHandler(this.bt_confirmar_Click_1);
@@ -119,21 +113,20 @@
             this.bt_cancelar.BackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatAppearance.BorderSize = 0;
             this.bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cancelar.Location = new System.Drawing.Point(712, 500);
-            this.bt_cancelar.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_cancelar.Location = new System.Drawing.Point(534, 406);
             this.bt_cancelar.Name = "bt_cancelar";
-            this.bt_cancelar.Size = new System.Drawing.Size(147, 32);
+            this.bt_cancelar.Size = new System.Drawing.Size(110, 26);
             this.bt_cancelar.TabIndex = 12;
             this.bt_cancelar.UseVisualStyleBackColor = false;
             this.bt_cancelar.Click += new System.EventHandler(this.bt_cancelar_Click_1);
             // 
             // PixRevisao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bt_confirmar);
             this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.tx_valor);
@@ -141,9 +134,9 @@
             this.Controls.Add(this.tx_instituicao);
             this.Controls.Add(this.tx_id);
             this.Controls.Add(this.tx_nome);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PixRevisao";
             this.Text = "PixRevisao";
+            this.Load += new System.EventHandler(this.PixRevisao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

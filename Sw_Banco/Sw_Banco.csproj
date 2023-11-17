@@ -117,6 +117,12 @@
     <Compile Include="Telas\TransferenciaRevisao.Designer.cs">
       <DependentUpon>TransferenciaRevisao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\VisualizarExtrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\VisualizarExtrato.Designer.cs">
+      <DependentUpon>VisualizarExtrato.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Telas\CadastrarC.resx">
       <DependentUpon>CadastrarC.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TransferenciaRevisao.resx">
       <DependentUpon>TransferenciaRevisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\VisualizarExtrato.resx">
+      <DependentUpon>VisualizarExtrato.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

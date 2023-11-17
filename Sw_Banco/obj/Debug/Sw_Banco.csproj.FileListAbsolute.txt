@@ -60,3 +60,25 @@ C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2
 C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2-Banco\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.exe
 C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2-Banco\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.pdb
 C:\Users\luizs\OneDrive\Documentos\New\2º ano\4º bimestre 2\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.EmprestimoRevisao.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.csproj.AssemblyReference.cache
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.csproj.SuggestedBindingRedirects.cache
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.CadastrarC.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.CadastrarF.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.Emprestimo.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.EmprestimoRevisao.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Login.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Properties.Resources.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.Menup.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.Pix.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.PixRevisao.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.TelaF.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.Transferencia.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.TransferenciaRevisao.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.Telas.VisualizarExtrato.resources
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.csproj.GenerateResource.cache
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.csproj.CoreCompileInputs.cache
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.exe
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.pdb
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\bin\Debug\Sw_Banco.exe.config
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\bin\Debug\Sw_Banco.exe
+C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\bin\Debug\Sw_Banco.pdb

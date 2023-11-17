@@ -63,7 +63,9 @@ namespace Sw_Banco.Telas
 
         private void bt_extrato_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            VisualizarExtrato view = new VisualizarExtrato(contas, funcionarios, idv);
+            view.Show();
         }
     }
 }

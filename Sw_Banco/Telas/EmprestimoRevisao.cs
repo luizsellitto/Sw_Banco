@@ -51,8 +51,10 @@ namespace Sw_Banco.Telas
                 {
                     b.TotalEmp = b.TotalEmp + valor;
                     string valorr = $"+ {tx_valor.Text}";
-                    double saldof = b.Saldo += valor;
-                    Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valorr, "Empréstimo Adquirido");
+                    double saldof = b.Saldo + valor;
+                    Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valorr, "Empréstimo", " ","InnovaBank");
+                    b.Extras.Add(bextra);
+                    b.Saldo += valor;
                     MessageBox.Show("Emprestimo Realizado com Sucesso");
                     this.Hide();
                     Menup menu = new Menup(contas, funcionarios, idv);
@@ -70,6 +72,11 @@ namespace Sw_Banco.Telas
             this.Hide();
             Emprestimo emprestimo = new Emprestimo(contas, funcionarios, idv);
             emprestimo.Show();
+        }
+
+        private void EmprestimoRevisao_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
