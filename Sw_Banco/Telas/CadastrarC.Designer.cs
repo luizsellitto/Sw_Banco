@@ -123,8 +123,8 @@
             this.tx_cpf.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tx_cpf.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_cpf.Location = new System.Drawing.Point(248, 315);
-            this.tx_cpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tx_cpf.Mask = "000.000.000-00";
+            this.tx_cpf.Margin = new System.Windows.Forms.Padding(4);
+            this.tx_cpf.Mask = "000,000,000-00";
             this.tx_cpf.Name = "tx_cpf";
             this.tx_cpf.Size = new System.Drawing.Size(133, 23);
             this.tx_cpf.TabIndex = 22;
@@ -135,7 +135,7 @@
             this.tx_celular.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tx_celular.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_celular.Location = new System.Drawing.Point(707, 219);
-            this.tx_celular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tx_celular.Margin = new System.Windows.Forms.Padding(4);
             this.tx_celular.Mask = "(00) 00000-0000";
             this.tx_celular.Name = "tx_celular";
             this.tx_celular.Size = new System.Drawing.Size(133, 23);

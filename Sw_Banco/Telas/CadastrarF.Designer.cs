@@ -147,7 +147,7 @@
             this.tx_cpf.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_cpf.Location = new System.Drawing.Point(179, 271);
             this.tx_cpf.Margin = new System.Windows.Forms.Padding(4);
-            this.tx_cpf.Mask = "000.000.000-00";
+            this.tx_cpf.Mask = "000,000,000-00";
             this.tx_cpf.Name = "tx_cpf";
             this.tx_cpf.Size = new System.Drawing.Size(133, 23);
             this.tx_cpf.TabIndex = 19;
