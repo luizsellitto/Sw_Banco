@@ -82,3 +82,4 @@ C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\obj\Debug\Sw_Banco.pdb
 C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\bin\Debug\Sw_Banco.exe.config
 C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\bin\Debug\Sw_Banco.exe
 C:\Users\Valdemy\Desktop\Nova pasta\Sw_Banco\bin\Debug\Sw_Banco.pdb
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Apresentação de po2-Banco\Sw_Banco\Sw_Banco\obj\Debug\Sw_Banco.Telas.VisualizarExtrato.resources
