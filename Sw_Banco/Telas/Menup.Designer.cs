@@ -41,6 +41,8 @@
             // 
             this.bt_pix.BackColor = System.Drawing.Color.Transparent;
             this.bt_pix.FlatAppearance.BorderSize = 0;
+            this.bt_pix.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_pix.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_pix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_pix.Location = new System.Drawing.Point(291, 282);
             this.bt_pix.Margin = new System.Windows.Forms.Padding(4);
@@ -54,6 +56,8 @@
             // 
             this.bt_emprestimo.BackColor = System.Drawing.Color.Transparent;
             this.bt_emprestimo.FlatAppearance.BorderSize = 0;
+            this.bt_emprestimo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_emprestimo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_emprestimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_emprestimo.Location = new System.Drawing.Point(464, 282);
             this.bt_emprestimo.Margin = new System.Windows.Forms.Padding(4);
@@ -67,6 +71,8 @@
             // 
             this.bt_transferencia.BackColor = System.Drawing.Color.Transparent;
             this.bt_transferencia.FlatAppearance.BorderSize = 0;
+            this.bt_transferencia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_transferencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_transferencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_transferencia.Location = new System.Drawing.Point(637, 282);
             this.bt_transferencia.Margin = new System.Windows.Forms.Padding(4);
@@ -80,6 +86,8 @@
             // 
             this.bt_extrato.BackColor = System.Drawing.Color.Transparent;
             this.bt_extrato.FlatAppearance.BorderSize = 0;
+            this.bt_extrato.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_extrato.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_extrato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_extrato.Location = new System.Drawing.Point(291, 450);
             this.bt_extrato.Margin = new System.Windows.Forms.Padding(4);
@@ -93,6 +101,8 @@
             // 
             this.bt_sair.BackColor = System.Drawing.Color.Transparent;
             this.bt_sair.FlatAppearance.BorderSize = 0;
+            this.bt_sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_sair.Location = new System.Drawing.Point(464, 450);
             this.bt_sair.Margin = new System.Windows.Forms.Padding(4);
@@ -104,6 +114,7 @@
             // 
             // tx_saldo
             // 
+            this.tx_saldo.BackColor = System.Drawing.Color.White;
             this.tx_saldo.Enabled = false;
             this.tx_saldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_saldo.Location = new System.Drawing.Point(475, 190);

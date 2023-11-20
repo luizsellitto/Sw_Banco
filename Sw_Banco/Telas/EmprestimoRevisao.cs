@@ -44,27 +44,33 @@ namespace Sw_Banco.Telas
 
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
-            
-            foreach (var b in contas)
+            try
             {
-                if (b.Id_con == idv)
+                foreach (var b in contas)
                 {
-                    b.TotalEmp = b.TotalEmp + valor;
-                    string valorr = $"+ {tx_valor.Text}";
-                    double saldof = b.Saldo + valor;
-                    Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valorr, "Empréstimo", " ","InnovaBank");
-                    b.Extras.Add(bextra);
-                    b.Saldo += valor;
-                    MessageBox.Show("Emprestimo Realizado com Sucesso");
-                    this.Hide();
-                    Menup menu = new Menup(contas, funcionarios, idv);
-                    menu.Show();
+                    if (b.Id_con == idv)
+                    {
+                        b.TotalEmp = b.TotalEmp + valor;
+                        string valorr = $"+ {tx_valor.Text}";
+                        double saldof = b.Saldo + valor;
+                        Extrato bextra = new Extrato(b.Saldo, saldof, DateTime.Now, valorr, "Empréstimo", " ", "InnovaBank");
+                        b.Extras.Add(bextra);
+                        b.Saldo += valor;
+                        MessageBox.Show("Emprestimo Realizado com Sucesso");
+                        this.Hide();
+                        Menup menu = new Menup(contas, funcionarios, idv);
+                        menu.Show();
 
 
+                    }
                 }
             }
-            
-            
+            catch (Exception ex)
+            {
+                MessageBox.Show("Houve Algum Erro");
+            }
+
+
         }
 
         private void bt_cancelar_Click(object sender, EventArgs e)
@@ -75,6 +81,16 @@ namespace Sw_Banco.Telas
         }
 
         private void EmprestimoRevisao_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_valor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_juros_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -40,7 +40,7 @@
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tx_valor.Location = new System.Drawing.Point(459, 352);
-            this.tx_valor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tx_valor.Margin = new System.Windows.Forms.Padding(4);
             this.tx_valor.Multiline = true;
             this.tx_valor.Name = "tx_valor";
             this.tx_valor.Size = new System.Drawing.Size(155, 32);
@@ -50,9 +50,11 @@
             // 
             this.bt_confirmar.BackColor = System.Drawing.Color.Transparent;
             this.bt_confirmar.FlatAppearance.BorderSize = 0;
+            this.bt_confirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_confirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_confirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_confirmar.Location = new System.Drawing.Point(589, 470);
-            this.bt_confirmar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bt_confirmar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_confirmar.Name = "bt_confirmar";
             this.bt_confirmar.Size = new System.Drawing.Size(141, 28);
             this.bt_confirmar.TabIndex = 2;
@@ -63,9 +65,11 @@
             // 
             this.bt_cancelar.BackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatAppearance.BorderSize = 0;
+            this.bt_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_cancelar.Location = new System.Drawing.Point(337, 470);
-            this.bt_cancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bt_cancelar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_cancelar.Name = "bt_cancelar";
             this.bt_cancelar.Size = new System.Drawing.Size(141, 28);
             this.bt_cancelar.TabIndex = 3;
@@ -83,7 +87,7 @@
             this.tx_chave.Size = new System.Drawing.Size(155, 32);
             this.tx_chave.TabIndex = 4;
             // 
-            // pix
+            // Pix
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,8 +99,8 @@
             this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.bt_confirmar);
             this.Controls.Add(this.tx_valor);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "pix";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Pix";
             this.Text = "pix";
             this.ResumeLayout(false);
             this.PerformLayout();

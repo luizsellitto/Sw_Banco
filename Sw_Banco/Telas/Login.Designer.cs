@@ -39,7 +39,8 @@
             // 
             this.bt_login.BackColor = System.Drawing.Color.Transparent;
             this.bt_login.FlatAppearance.BorderSize = 0;
-            this.bt_login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_login.Location = new System.Drawing.Point(652, 572);
             this.bt_login.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -53,7 +54,8 @@
             // 
             this.bt_cancelar.BackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatAppearance.BorderSize = 0;
-            this.bt_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_cancelar.Location = new System.Drawing.Point(339, 572);
             this.bt_cancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

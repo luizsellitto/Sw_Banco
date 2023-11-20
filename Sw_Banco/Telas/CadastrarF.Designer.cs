@@ -45,6 +45,8 @@
             // 
             this.Salvar_bt.BackColor = System.Drawing.Color.Transparent;
             this.Salvar_bt.FlatAppearance.BorderSize = 0;
+            this.Salvar_bt.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Salvar_bt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Salvar_bt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Salvar_bt.Location = new System.Drawing.Point(541, 496);
             this.Salvar_bt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -58,6 +60,8 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(309, 496);

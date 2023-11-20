@@ -39,6 +39,8 @@
             // 
             this.bt_Confirmar.BackColor = System.Drawing.Color.Transparent;
             this.bt_Confirmar.FlatAppearance.BorderSize = 0;
+            this.bt_Confirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_Confirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Confirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_Confirmar.Location = new System.Drawing.Point(572, 462);
             this.bt_Confirmar.Margin = new System.Windows.Forms.Padding(4);
@@ -52,6 +54,8 @@
             // 
             this.bt_Cancelar.BackColor = System.Drawing.Color.Transparent;
             this.bt_Cancelar.FlatAppearance.BorderSize = 0;
+            this.bt_Cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_Cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_Cancelar.Location = new System.Drawing.Point(323, 462);
             this.bt_Cancelar.Margin = new System.Windows.Forms.Padding(4);

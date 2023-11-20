@@ -23,17 +23,24 @@ namespace Sw_Banco.Telas
             InitializeComponent();
             idv = id;
             contas = nconta;
-            foreach (var a in contas)
+            try
             {
-                if (a.Id_con == idv)
+                foreach (var a in contas)
                 {
-                    dataGridView1.DataSource = null;
-                    dataGridView1.Refresh();
-                    dataGridView1.DataSource = a.Extras;
+                    if (a.Id_con == idv)
+                    {
+                        dataGridView1.DataSource = null;
+                        dataGridView1.Refresh();
+                        dataGridView1.DataSource = a.Extras;
+                    }
+
                 }
-                
             }
-            
+            catch (Exception ex)
+            {
+                MessageBox.Show("Houve Algum Erro");
+            }
+
         }
 
         private void VisualizarExtrato_Load(object sender, EventArgs e)
@@ -46,6 +53,11 @@ namespace Sw_Banco.Telas
             this.Hide();
             Menup menu = new Menup(contas, funcionarios, idv);
             menu.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

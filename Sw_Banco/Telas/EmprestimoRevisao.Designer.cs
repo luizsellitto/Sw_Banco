@@ -40,58 +40,67 @@
             // 
             // tx_valor
             // 
+            this.tx_valor.BackColor = System.Drawing.Color.White;
             this.tx_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_valor.Enabled = false;
             this.tx_valor.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_valor.Location = new System.Drawing.Point(347, 110);
+            this.tx_valor.Location = new System.Drawing.Point(463, 130);
+            this.tx_valor.Margin = new System.Windows.Forms.Padding(4);
             this.tx_valor.Name = "tx_valor";
-            this.tx_valor.Size = new System.Drawing.Size(97, 22);
+            this.tx_valor.Size = new System.Drawing.Size(129, 27);
             this.tx_valor.TabIndex = 10;
+            this.tx_valor.TextChanged += new System.EventHandler(this.tx_valor_TextChanged);
             // 
             // tx_nome
             // 
-            this.tx_nome.BackColor = System.Drawing.SystemColors.Window;
+            this.tx_nome.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.tx_nome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_nome.Enabled = false;
             this.tx_nome.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_nome.Location = new System.Drawing.Point(71, 234);
+            this.tx_nome.Location = new System.Drawing.Point(95, 288);
+            this.tx_nome.Margin = new System.Windows.Forms.Padding(4);
             this.tx_nome.Multiline = true;
             this.tx_nome.Name = "tx_nome";
-            this.tx_nome.Size = new System.Drawing.Size(426, 24);
+            this.tx_nome.Size = new System.Drawing.Size(568, 30);
             this.tx_nome.TabIndex = 11;
             // 
             // tx_id
             // 
-            this.tx_id.BackColor = System.Drawing.SystemColors.Window;
+            this.tx_id.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.tx_id.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_id.Enabled = false;
             this.tx_id.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_id.Location = new System.Drawing.Point(59, 315);
+            this.tx_id.Location = new System.Drawing.Point(79, 388);
+            this.tx_id.Margin = new System.Windows.Forms.Padding(4);
             this.tx_id.Multiline = true;
             this.tx_id.Name = "tx_id";
-            this.tx_id.Size = new System.Drawing.Size(438, 24);
+            this.tx_id.Size = new System.Drawing.Size(584, 30);
             this.tx_id.TabIndex = 12;
             // 
             // tx_cpf
             // 
-            this.tx_cpf.BackColor = System.Drawing.SystemColors.Window;
+            this.tx_cpf.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.tx_cpf.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_cpf.Enabled = false;
             this.tx_cpf.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_cpf.Location = new System.Drawing.Point(71, 384);
+            this.tx_cpf.Location = new System.Drawing.Point(95, 473);
+            this.tx_cpf.Margin = new System.Windows.Forms.Padding(4);
             this.tx_cpf.Multiline = true;
             this.tx_cpf.Name = "tx_cpf";
-            this.tx_cpf.Size = new System.Drawing.Size(426, 24);
+            this.tx_cpf.Size = new System.Drawing.Size(568, 30);
             this.tx_cpf.TabIndex = 13;
             // 
             // bt_confirmar
             // 
             this.bt_confirmar.BackColor = System.Drawing.Color.Transparent;
             this.bt_confirmar.FlatAppearance.BorderSize = 0;
+            this.bt_confirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_confirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_confirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_confirmar.Location = new System.Drawing.Point(678, 407);
+            this.bt_confirmar.Location = new System.Drawing.Point(904, 501);
+            this.bt_confirmar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_confirmar.Name = "bt_confirmar";
-            this.bt_confirmar.Size = new System.Drawing.Size(110, 26);
+            this.bt_confirmar.Size = new System.Drawing.Size(147, 32);
             this.bt_confirmar.TabIndex = 14;
             this.bt_confirmar.UseVisualStyleBackColor = false;
             this.bt_confirmar.Click += new System.EventHandler(this.bt_confirmar_Click);
@@ -100,31 +109,37 @@
             // 
             this.bt_cancelar.BackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatAppearance.BorderSize = 0;
+            this.bt_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cancelar.Location = new System.Drawing.Point(540, 407);
+            this.bt_cancelar.Location = new System.Drawing.Point(720, 501);
+            this.bt_cancelar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_cancelar.Name = "bt_cancelar";
-            this.bt_cancelar.Size = new System.Drawing.Size(110, 26);
+            this.bt_cancelar.Size = new System.Drawing.Size(147, 32);
             this.bt_cancelar.TabIndex = 15;
             this.bt_cancelar.UseVisualStyleBackColor = false;
             this.bt_cancelar.Click += new System.EventHandler(this.bt_cancelar_Click);
             // 
             // tx_juros
             // 
+            this.tx_juros.BackColor = System.Drawing.Color.White;
             this.tx_juros.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_juros.Enabled = false;
             this.tx_juros.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_juros.Location = new System.Drawing.Point(347, 161);
+            this.tx_juros.Location = new System.Drawing.Point(463, 195);
+            this.tx_juros.Margin = new System.Windows.Forms.Padding(4);
             this.tx_juros.Name = "tx_juros";
-            this.tx_juros.Size = new System.Drawing.Size(97, 22);
+            this.tx_juros.Size = new System.Drawing.Size(129, 27);
             this.tx_juros.TabIndex = 16;
+            this.tx_juros.TextChanged += new System.EventHandler(this.tx_juros_TextChanged);
             // 
             // EmprestimoRevisao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(805, 452);
+            this.ClientSize = new System.Drawing.Size(1073, 556);
             this.Controls.Add(this.tx_juros);
             this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.bt_confirmar);
@@ -132,7 +147,7 @@
             this.Controls.Add(this.tx_id);
             this.Controls.Add(this.tx_nome);
             this.Controls.Add(this.tx_valor);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "EmprestimoRevisao";
             this.Text = "EmprestimoRevisao";
             this.Load += new System.EventHandler(this.EmprestimoRevisao_Load);

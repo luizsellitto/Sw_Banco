@@ -95,6 +95,8 @@
             // 
             this.bt_cancelar.BackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatAppearance.BorderSize = 0;
+            this.bt_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_cancelar.Location = new System.Drawing.Point(347, 585);
             this.bt_cancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -108,6 +110,8 @@
             // 
             this.Salvar_bt.BackColor = System.Drawing.Color.Transparent;
             this.Salvar_bt.FlatAppearance.BorderSize = 0;
+            this.Salvar_bt.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Salvar_bt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Salvar_bt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Salvar_bt.Location = new System.Drawing.Point(616, 587);
             this.Salvar_bt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

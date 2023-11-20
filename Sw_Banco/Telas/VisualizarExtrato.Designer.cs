@@ -36,26 +36,30 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Enabled = false;
             this.dataGridView1.GridColor = System.Drawing.Color.Gainsboro;
             this.dataGridView1.Location = new System.Drawing.Point(137, 122);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(760, 405);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // sair_button
             // 
             this.sair_button.BackColor = System.Drawing.Color.Transparent;
             this.sair_button.FlatAppearance.BorderSize = 0;
+            this.sair_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.sair_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.sair_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sair_button.Location = new System.Drawing.Point(13, 13);
-            this.sair_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sair_button.Margin = new System.Windows.Forms.Padding(4);
             this.sair_button.Name = "sair_button";
             this.sair_button.Size = new System.Drawing.Size(34, 30);
             this.sair_button.TabIndex = 1;
@@ -66,12 +70,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.sair_button);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "VisualizarExtrato";
             this.Text = "VisualizarExtrato";
             this.Load += new System.EventHandler(this.VisualizarExtrato_Load);

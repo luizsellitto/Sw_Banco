@@ -60,6 +60,7 @@
             // 
             // tx_limitedeemprestimo
             // 
+            this.tx_limitedeemprestimo.BackColor = System.Drawing.Color.White;
             this.tx_limitedeemprestimo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tx_limitedeemprestimo.Enabled = false;
             this.tx_limitedeemprestimo.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -74,6 +75,8 @@
             // 
             this.bt_confirmar.BackColor = System.Drawing.Color.Transparent;
             this.bt_confirmar.FlatAppearance.BorderSize = 0;
+            this.bt_confirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_confirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_confirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_confirmar.Location = new System.Drawing.Point(580, 465);
             this.bt_confirmar.Margin = new System.Windows.Forms.Padding(4);
@@ -87,6 +90,8 @@
             // 
             this.bt_cancelar.BackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatAppearance.BorderSize = 0;
+            this.bt_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_cancelar.Location = new System.Drawing.Point(340, 465);
             this.bt_cancelar.Margin = new System.Windows.Forms.Padding(4);

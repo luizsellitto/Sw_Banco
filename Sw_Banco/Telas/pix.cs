@@ -51,7 +51,6 @@ namespace Sw_Banco.Telas
                         {
                             if (Convert.ToDouble(tx_valor.Text) <= saldo)
                             {
-                                if (saldo >= Convert.ToDouble(tx_valor.Text))
                                     foreach (var a in contas)
                                     {
 
@@ -71,10 +70,6 @@ namespace Sw_Banco.Telas
                                 if (validar)
                                 {
                                     MessageBox.Show("Chave inválida");
-                                }
-                                if (saldo < Convert.ToDouble(tx_valor.Text))
-                                {
-                                    MessageBox.Show("Saldo insuficiente");
                                 }
                             }
                             else
